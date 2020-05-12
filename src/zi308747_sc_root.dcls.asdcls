@@ -1,0 +1,11 @@
+@EndUserText.label: 'access control for Shopping cart'
+@MappingRole: true
+define role ZI308747_SC_ROOT {
+    grant
+        select
+            on
+                ZI308747_sc_root
+                    where
+                       ( document_type ) = aspect pfcg_auth(ZS4IBSO002,ZS4IBSDOCT, actvt = '03' );
+                        
+}

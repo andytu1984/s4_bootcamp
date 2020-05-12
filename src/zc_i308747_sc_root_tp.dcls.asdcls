@@ -1,0 +1,9 @@
+@EndUserText.label: 'access control for SC consumption view'
+@MappingRole: true
+define role ZC_I308747_SC_ROOT_TP {
+    grant
+        select
+            on
+                zc_i308747_sc_root_tp
+            inherit zi308747_sc_root;         
+}

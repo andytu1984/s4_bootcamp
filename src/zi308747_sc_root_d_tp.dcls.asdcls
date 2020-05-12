@@ -1,0 +1,9 @@
+@EndUserText.label: 'access control for sc root'
+@MappingRole: true
+define role ZI308747_SC_ROOT_D_TP {
+    grant
+        select
+            on
+                zi308747_sc_root_d_tp inherit zi308747_sc_root;
+                        
+}

@@ -1,0 +1,9 @@
+@EndUserText.label: 'access control for Shopping cart tp'
+@MappingRole: true
+define role ZI308747_SC_ROOT_TP {
+    grant
+        select
+            on
+                zi308747_sc_root_tp inherit zi308747_sc_root;
+                        
+}

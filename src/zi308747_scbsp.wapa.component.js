@@ -1,0 +1,1 @@
+sap.ui.define(["sap/suite/ui/generic/template/lib/AppComponent"],function(t){return t.extend("com.ibso.shoppingcart.listreport.draft.zi308747_sc_draft.Component",{metadata:{manifest:"json"}})});                                                             
